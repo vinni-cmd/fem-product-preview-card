@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+/*  The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px*/
+
+:root {
+  /* Primary colors */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  /* Neutral colors */
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  font-family:'Montserrat',sans-serif;
+  padding: 30px 15px;
+  background-color: var(--cream);
+}
+
+.container {
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+img {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  max-width:100%;max-height:100%;
+}
+
+p {
+  font-size: 14px;
+}
+  
