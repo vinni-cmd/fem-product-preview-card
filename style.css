@@ -102,7 +102,7 @@ h1, .sale-price {
 @media (min-width: 680px) {
   .container {
     display: flex;
-    max-width: 800px;
+    max-width: min(800px,100vw);
   }
   .container>* {
     flex: 1;
